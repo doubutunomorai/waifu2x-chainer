@@ -136,7 +136,7 @@ def main():
     p.add_argument('--batch_size', '-b', type=int, default=16)
     p.add_argument('--block_size', '-l', type=int, default=128)
     p.add_argument('--extension', '-e', default='png',
-                   choices=['png', 'webp'])
+                   choices=['png', 'webp', 'jpg'])
     p.add_argument('--arch', '-a', default='VGG7',
                    choices=['VGG7', '0', 'UpConv7', '1', 'ResNet10', '2', 'UpResNet10', '3'])
     p.add_argument('--method', '-m', default='scale',
